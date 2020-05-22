@@ -1,0 +1,34 @@
+.topMenu {
+  position: relative;
+  z-index: 90;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+}
+.topMenu-block {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+}
+.topMenu-block input {
+  width: 300px;
+}
+.topMenu-block_logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.topMenu-block_logo p {
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #8bc448;
+}
+.topMenu-block_time__dayWeek p:first-letter {
+  text-transform: uppercase;
+}
+.topMenu-block_time__dayWeek i {
+  margin: 0 5px 0 10px;
+  color: green;
+}
+
+/*# sourceMappingURL=index.css.map */
